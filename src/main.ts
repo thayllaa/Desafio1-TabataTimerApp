@@ -44,4 +44,4 @@ let intervalId =  setInterval(() => {
     round += 1;
     second = 30;
   }
-},1000);
+},100);
