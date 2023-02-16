@@ -7,12 +7,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <h1>Olá, eu sou o {{name}}!</h1>
-    <a target="_blank" href="https://angular.io/start">
-      
-    </a>
-  `,
+  template: ``,
 })
 export class App {
   name = 'Temporizador Tabata ';
