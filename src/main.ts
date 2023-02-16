@@ -25,7 +25,7 @@ document.getElementById('app').innerHTML = title;
 
 let action = '-';
 let round = 0;
-let second = 3;
+let second = 5;
 let intervalId =  setInterval(() => {
   if (round < 1) action = 'Prepare-se!';
   else if (round > 8) action = 'Feito!';
