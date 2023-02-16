@@ -29,7 +29,7 @@ let second = 5;
 let intervalId =  setInterval(() => {
   if (round < 1) action = 'Prepare-se!';
   else if (round > 8) action = 'Feito!';
-  else if (second > 10 ) action = 'Comece o exercício!';
+  else if (second > 10 ) action = 'Comece a se exercitar!';
   else action = 'Descanso! Você merece (=';
   document.getElementById('app-acao').innerHTML = action;
   
